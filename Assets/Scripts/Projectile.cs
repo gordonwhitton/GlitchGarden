@@ -20,7 +20,14 @@ public class Projectile : MonoBehaviour
 
         var health = otherCollider.GetComponent<Health>();
 
-        //reduce health
-        health.DealDamage(damage);
+        var attacker = otherCollider.GetComponent<Attacker>();
+
+        if(attacker && health) //if has both components
+        {
+            health.DealDamage(damage);
+            Destroy(gameObject);
+        }
+
+        
     }
 }
