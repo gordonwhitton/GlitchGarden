@@ -9,7 +9,7 @@ public class AttackerSpawner : MonoBehaviour
 
     [SerializeField] float minSpawnDelay = 1f;
     [SerializeField] float maxSpawnDelay = 5f;
-    [SerializeField] Attacker attackerPrefab;
+    [SerializeField] Attacker[] attackerPrefabArray;
 
     // Start is called before the first frame update
     IEnumerator Start()
@@ -24,13 +24,14 @@ public class AttackerSpawner : MonoBehaviour
 
     private void SpawnAttacker()
     {
-        Attacker newAttacker = Instantiate(attackerPrefab, transform.position, transform.rotation) as Attacker;
-        newAttacker.transform.parent = transform; //parent is going be what just created this -> will get created under Spawner
+        var attackerIndex = UnityEngine.Random.Range(0, attackerPrefabArray.Length);
+        Debug.Log("attackerIndex" + attackerIndex);
+        Spawn(attackerPrefabArray[attackerIndex]);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Spawn(Attacker myAttacker)
     {
-        
+        Attacker newAttacker = Instantiate(myAttacker, transform.position, transform.rotation) as Attacker;
+        newAttacker.transform.parent = transform; //parent is going be what just created this -> will get created under Spawner
     }
 }
