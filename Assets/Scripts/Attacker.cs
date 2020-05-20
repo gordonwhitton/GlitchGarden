@@ -6,10 +6,23 @@ using UnityEngine;
 public class Attacker : MonoBehaviour
 {
     [Range(0f, 5f)]
-    //[SerializeField] float walkSpeed = 1f;
     float currentSpeed = 1f;
     GameObject currentTarget;
 
+    private void Awake() //very first thing that happens in Unity execution order
+    {
+        FindObjectOfType<LevelController>().AttackerSpawned();
+    }
+
+    private void OnDestroy() //last thing that happens in Unity execution order
+    {
+        var levelController = FindObjectOfType<LevelController>();
+
+        if(levelController != null)
+        {
+            levelController.AttackerKilled();
+        }
+    }
 
     void Update()
     {

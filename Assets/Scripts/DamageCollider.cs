@@ -5,8 +5,9 @@ using UnityEngine;
 public class DamageCollider : MonoBehaviour
 {
 
-    private void OnTriggerEnter2D()
+    private void OnTriggerEnter2D(Collider2D enemy)
     {
         FindObjectOfType<LivesDisplay>().TakeLife();
+        Destroy(enemy);
     }
 }
