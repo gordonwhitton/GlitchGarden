@@ -233,7 +233,7 @@ PrefabInstance:
     - target: {fileID: 655994177331883875, guid: 73150e3ed49d72742a46641f5cbe0faf,
         type: 3}
       propertyPath: attackerPrefabArray.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 655994177331883875, guid: 73150e3ed49d72742a46641f5cbe0faf,
         type: 3}
@@ -245,7 +245,8 @@ PrefabInstance:
         type: 3}
       propertyPath: attackerPrefabArray.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2407624037907950861, guid: 0f95b6bb43387c742aa71b8d04c5822f,
+        type: 3}
     - target: {fileID: 655994177471132403, guid: 73150e3ed49d72742a46641f5cbe0faf,
         type: 3}
       propertyPath: m_Enabled
@@ -339,7 +340,7 @@ PrefabInstance:
     - target: {fileID: 655994178568374028, guid: 73150e3ed49d72742a46641f5cbe0faf,
         type: 3}
       propertyPath: attackerPrefabArray.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 655994178568374028, guid: 73150e3ed49d72742a46641f5cbe0faf,
         type: 3}
@@ -361,11 +362,12 @@ PrefabInstance:
         type: 3}
       propertyPath: attackerPrefabArray.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2407624037907950861, guid: 0f95b6bb43387c742aa71b8d04c5822f,
+        type: 3}
     - target: {fileID: 655994178939675614, guid: 73150e3ed49d72742a46641f5cbe0faf,
         type: 3}
       propertyPath: attackerPrefabArray.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 655994178939675614, guid: 73150e3ed49d72742a46641f5cbe0faf,
         type: 3}
@@ -387,17 +389,24 @@ PrefabInstance:
         type: 3}
       propertyPath: attackerPrefabArray.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2407624037907950861, guid: 0f95b6bb43387c742aa71b8d04c5822f,
+        type: 3}
     - target: {fileID: 655994179009611056, guid: 73150e3ed49d72742a46641f5cbe0faf,
         type: 3}
       propertyPath: attackerPrefabArray.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 655994179009611056, guid: 73150e3ed49d72742a46641f5cbe0faf,
         type: 3}
       propertyPath: attackerPrefabArray.Array.data[0]
       value: 
       objectReference: {fileID: 4238897555497406821, guid: cb8775c56fadb544eb225d804902dc44,
+        type: 3}
+    - target: {fileID: 655994179009611056, guid: 73150e3ed49d72742a46641f5cbe0faf,
+        type: 3}
+      propertyPath: attackerPrefabArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 2407624037907950861, guid: 0f95b6bb43387c742aa71b8d04c5822f,
         type: 3}
     - target: {fileID: 655994179068837454, guid: 73150e3ed49d72742a46641f5cbe0faf,
         type: 3}
@@ -407,7 +416,7 @@ PrefabInstance:
     - target: {fileID: 1539957323174772327, guid: 73150e3ed49d72742a46641f5cbe0faf,
         type: 3}
       propertyPath: attackerPrefabArray.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1539957323174772327, guid: 73150e3ed49d72742a46641f5cbe0faf,
         type: 3}
@@ -429,11 +438,12 @@ PrefabInstance:
         type: 3}
       propertyPath: attackerPrefabArray.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2407624037907950861, guid: 0f95b6bb43387c742aa71b8d04c5822f,
+        type: 3}
     - target: {fileID: 1539957323243721453, guid: 73150e3ed49d72742a46641f5cbe0faf,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1539957324147504703, guid: 73150e3ed49d72742a46641f5cbe0faf,
         type: 3}
@@ -1164,7 +1174,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 719503144, guid: e3748e55888670449aa5e29e0b598c65, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1781105527, guid: e3748e55888670449aa5e29e0b598c65, type: 3}
       propertyPath: m_Enabled
@@ -1176,7 +1186,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2069106473, guid: e3748e55888670449aa5e29e0b598c65, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3323665563699747320, guid: e3748e55888670449aa5e29e0b598c65,
         type: 3}
